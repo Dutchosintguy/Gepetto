@@ -15,7 +15,7 @@ uuid_image = str(uuid.uuid4())  + ".jpeg"
 open('images/' + uuid_image, 'wb').write(new_image.content)
 
 # Resize the image so the api doesn't time out
-# not usefull with azure api
+# not usefull with azure api but you should still uncomment this otherwise the image will open up waaay to big
 # resized_image = Image.open('images/tmp_image.jpeg').resize((400, 400), Image.ANTIALIAS)
 # resized_image.save('images/tmp_image.jpeg')
 
