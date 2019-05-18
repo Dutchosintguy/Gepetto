@@ -22,6 +22,7 @@ This is a work in progress and (a metric assload) more while be added in the fut
 * an option to save the output to a file/qr code
 * an option to give a user-chosen image
 * make the second line of the address aligned (oh god it's killing me)
-* the possibility to create accounts (email and social) and blogs 
+* the possibility to create accounts (email and social) and blogs
+* in general, add more personnal details and info/data
 
 A friend (named kernoeb) also started his version of this named pyRson go give him some love
