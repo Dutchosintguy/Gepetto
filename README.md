@@ -24,5 +24,6 @@ This is a work in progress and (a metric assload) more while be added in the fut
 * make the second line of the address aligned (oh god it's killing me)
 * the possibility to create accounts (email and social) and blogs
 * in general, add more personnal details and info/data
+* potentially use webscraping or a local IA for the face recognition part
 
 A friend (named kernoeb) also started his version of this named pyRson go give him some love
