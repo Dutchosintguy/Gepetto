@@ -21,3 +21,4 @@ This is a work in progress and (much) more while be added in the future :
 * argparse to manage the parameters
 * an option to save the output to a file/qr code
 * an option to give a user-chosen image
+* make the second line of the address aligned (oh god it's killing me)
