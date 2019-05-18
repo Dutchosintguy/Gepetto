@@ -5,7 +5,7 @@ Generate new identities using thispersondoesnotexist.com and a face recognition 
 
 Simple ! First install the faker and requests libraries
 ```pip3 install requests faker```.
-Then create an account on a face recognition platform, I've added two python scripts, one for face++ and one for microsoft azure but feel free to use your own solution (just be shure to return a gender and an age).
+Then create an account on a face recognition platform and get your api key, I've added two python scripts, one for face++ and one for microsoft azure but feel free to use your own solution (just be shure to return a gender and an age).
 Now just run 
 ```python gepetto.py```
 and generate new identities.
