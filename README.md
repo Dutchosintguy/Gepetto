@@ -5,9 +5,9 @@ Generate new identities using thispersondoesnotexist.com and a face recognition 
 
 ## how to use
 
-Simple ! First install the needed libraries
+Simple ! First clone this repository with `git clone https://github.com/yarienkiva/Gepetto.git` then install the needed libraries
 `pip3 install -r requirements.txt` (please use python3).
-Then create an account on a face recognition platform and get your api key, I've added two python scripts, one for [face++](https://www.faceplusplus.com/face-detection/) and one for [microsoft azure](https://azure.microsoft.com/services/cognitive-services/face/)but feel free to use your own solution (just be sure to return a gender and an age).
+After that create an account on a face recognition platform and get your api key, I've added two python scripts, one for [face++](https://www.faceplusplus.com/face-detection/) and one for [microsoft azure](https://azure.microsoft.com/services/cognitive-services/face/)but feel free to use your own solution (just be sure to return a gender and an age).
 Now just run 
 `python gepetto.py`
 and generate new identities.
