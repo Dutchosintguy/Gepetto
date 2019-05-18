@@ -18,7 +18,7 @@ def faker_info(gender,age):
         "Personnal info : ",
         "\n\tUsername :" + fake.user_name(),
         "\n\tBirthdate : " + str(fake.date_of_birth(tzinfo=None, minimum_age=age, maximum_age=age)),
-        "\n\tBlood group :" + a["blood_group"],
+        "\n\tBlood group : " + a["blood_group"],
         "\n\tNationality : " + fake.bank_country(),
         "\n\tAddress : " + a["residence"],
         "\n\tSSN : " + fake.ssn(),
