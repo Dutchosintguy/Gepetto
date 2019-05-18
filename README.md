@@ -1,6 +1,8 @@
 # Gepetto : v1.0
 Generate new identities using thispersondoesnotexist.com and a face recognition api
 
+![A quick demi](demo.jpg)
+
 ## how to use
 
 Simple ! First install the needed libraries
