@@ -2,7 +2,7 @@ import requests
 import base64
 
 # Just use whatever you want api/AI wise
-# just make shure to return a gender and an age
+# just make sure to return a gender and an age
 
 def ia_recon(image_path):
     face_api_data = base64.b64encode(open(str(image_path),'rb').read())
@@ -20,7 +20,6 @@ def ia_recon(image_path):
     response = requests.post(face_api_url, data=face_api_params)
 
     r = response.json()["faces"][0]["attributes"]
-    # ethnicity = r["ethnicity"]["value"].lower()
     gender = r["gender"]["value"].lower()
     age = int(r["age"]["value"])
 
