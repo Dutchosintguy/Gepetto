@@ -17,8 +17,9 @@ and generate new identities.
 I'll soon write a blog post [here](https://yarienkiva.ml/whatever_this_article_is_called) to document the thought process and steps I've taken to code this project.
 
 ## soon...
-This is a work in progress and (much) more while be added in the future :
+This is a work in progress and (a metric assload) more while be added in the future :
 * argparse to manage the parameters
 * an option to save the output to a file/qr code
 * an option to give a user-chosen image
 * make the second line of the address aligned (oh god it's killing me)
+* the possibility to create accounts (email and social) and blogs 
